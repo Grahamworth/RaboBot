@@ -7,7 +7,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
     console.log('% listening to %s',server.name, server.url)
 });
 
-//create bot
+//create bot 
 var connector = new builder.ChatConnector({
     appId: process.env.MICROSOFT_APP_ID,
     appPassword: process.env.MICROSOFT_APP_PASSWORD
